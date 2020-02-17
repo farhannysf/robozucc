@@ -1,0 +1,7 @@
+version: '2'
+services:
+  main:
+    image: robozucc:latest
+    env_file: .env
+    ports: 
+      - "4444:4444"
